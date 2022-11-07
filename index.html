@@ -5,6 +5,109 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/d1626d1331.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body></body>
+  <body>
+    <!-- NAVBAR START -->
+    <nav id="navbar">
+      <!-- LOGO START -->
+      <div class="logo">
+        <img
+          src="https://www.svgrepo.com/show/303145/instagram-2-1-logo.svg"
+          alt=""
+          style="width: 40%; height: 60%"
+        />
+        <span class="text-instagram">Instagram</span>
+      </div>
+      <!-- LOGO END -->
+
+      <!-- SEARCH START-->
+      <div class="search-box">
+        <input type="text" class="search-txt" placeholder="Enter smth..." />
+        <a href="#" class="search-btn"
+          ><img
+            src="https://images.vexels.com/media/users/3/132068/isolated/preview/f9bb81e576c1a361c61a8c08945b2c48-search-icon.png"
+            alt=""
+            width="20px"
+        /></a>
+      </div>
+
+      <!-- SEARCH END-->
+
+      <!-- FILTER START -->
+      <form class="filter">
+        <div id="filter-post">
+          <img
+            src="http://cdn.onlinewebfonts.com/svg/img_154466.png"
+            alt=""
+            style="width: 25px; height: 45%"
+          />
+        </div>
+        <div>
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/3916/3916593.png"
+            alt=""
+            style="width: 25px; height: 45%"
+          />
+        </div>
+        <div>
+          <img
+            src="https://icons.veryicon.com/png/o/application/basic-linear-icon-2/heart-138.png"
+            alt=""
+            style="width: 30px; height: 45%"
+          />
+        </div>
+        <div>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Home-icon.svg/1024px-Home-icon.svg.png"
+            alt=""
+            style="width: 30px; height: 45%"
+          />
+        </div>
+      </form>
+      <!-- FILTER END -->
+
+      <!-- MODAL START -->
+      <section class="main-modal">
+        <div class="modal-push">
+          <div class="close-btn">
+            <span>Add post</span>
+            <div id="close-modal">X</div>
+          </div>
+          <div class="info-push">
+            <input
+              type="url"
+              id="statusImgUrl"
+              placeholder="Enter url status-img"
+            />
+            <input type="text" id="nikName" placeholder="Enter your name" />
+            <input type="text" id="location" placeholder="Enter adress" />
+            <input
+              type="url"
+              id="mainPostImg"
+              placeholder="Enter url post-img"
+            />
+            <input type="text" id="details" placeholder="details" />
+          </div>
+          <div class="save-btn">
+            <button id="saveInfo">Add</button>
+          </div>
+        </div>
+      </section>
+      <!-- MODAL END-->
+    </nav>
+    <!-- NAVBAR END -->
+
+    <script src="./main.js"></script>
+  </body>
 </html>
