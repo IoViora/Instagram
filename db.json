@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "status": "https://api.time.com/wp-content/uploads/2020/09/time-100-Selena-Gomez.jpg",
+      "name": "Selena Gomez",
+      "adress": "Hollywood",
+      "mainImg": "https://www.humanesociety.org/sites/default/files/styles/1240x698/public/2020-07/kitten-510651.jpg?h=f54c7448&itok=ZhplzyJ9",
+      "details": "My pretty cat",
+      "id": 1
+    },
+    {
+      "status": "https://api.time.com/wp-content/uploads/2020/09/time-100-Selena-Gomez.jpg",
+      "name": "Selena Gomez",
+      "adress": "England",
+      "mainImg": "https://media.allure.com/photos/6307a3ad4e177d6d1439b729/3:2/w_2476,h_1651,c_limit/Selena%20Gomez%20Yellow%20Manicure.jpg",
+      "details": "Aizhamal so beautiful girl!!!",
+      "id": 2
+    },
+    {
+      "status": "https://api.time.com/wp-content/uploads/2020/09/time-100-Selena-Gomez.jpg",
+      "name": "Selena Gomez",
+      "adress": "America",
+      "mainImg": "https://api.time.com/wp-content/uploads/2020/09/time-100-Selena-Gomez.jpg?quality=85&crop=0px%2C351px%2C1668px%2C874px&resize=1200%2C628&strip",
+      "details": "Hello world!",
+      "id": 3
+    }
+  ]
+}
