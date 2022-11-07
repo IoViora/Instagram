@@ -162,3 +162,178 @@
   align-items: center;
   justify-content: space-around;
 }
+#profile_pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+#main__pic {
+  width: 85%;
+  height: 90%;
+  border-radius: 8px;
+  -webkit-box-shadow: -1px 1px 15px 4px rgba(34, 60, 80, 0.4);
+  -moz-box-shadow: -1px 1px 15px 4px rgba(34, 60, 80, 0.4);
+  box-shadow: -1px 1px 15px 4px rgba(34, 60, 80, 0.681);
+  margin-top: 20px;
+}
+.name-adress {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  height: 100%;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
+.update-delete {
+  width: 150px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.update-delete button {
+  width: 60px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #7eabb7;
+}
+.img-post {
+  width: 100%;
+  height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.filter-comment {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.comm-like {
+  display: flex;
+  width: 10%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.izb {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.like {
+  width: 90%;
+  height: 20px;
+}
+.details-card {
+  width: 93%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.main-modal2 {
+  position: fixed;
+  top: 0;
+  background-color: rgba(9, 9, 9, 0.534);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.modal-push2 {
+  width: 25%;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  margin: 200px auto 0;
+  background-color: #fefdfd;
+  border-radius: 10px;
+}
+.close-btn2 {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(98, 98, 98, 0.711);
+}
+.close-btn2 div {
+  margin-right: 5px;
+}
+.info-push2 {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.info-push2 input {
+  border-radius: 5px;
+}
+.save-btn2 {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-top: 1px solid rgba(98, 98, 98, 0.711);
+}
+.save-btn2 button {
+  width: 20%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #72c1d7;
+  border-radius: 5px;
+  margin-right: 10px;
+  border: none;
+}
+/* todo добавила пагинацию */
+#paginateBlock {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #eecda3;
+  background: -webkit-linear-gradient(to right, #ef629f, #9fccfa);
+  background: linear-gradient(to right, #ef629f, #9fccfa);
+  animation: animated 10s linear infinite;
+}
+.nextPost {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+#paginateNext {
+  background-image: url(https://icons.veryicon.com/png/o/miscellaneous/offerino-icons/arrow-up-45.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 60% 60%;
+  border: none;
+  background-color: white;
+}
+#paginatePrev {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/9d/Arrow-down.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 60% 60%;
+  border: none;
+  background-color: white;
+}
