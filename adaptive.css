@@ -1,0 +1,93 @@
+@media all and (max-width: 870px) {
+  .card {
+    width: 630px;
+    height: auto;
+    min-height: 530px;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f9fcfa;
+    margin-top: 15px;
+  }
+  .search-txt {
+    width: 0;
+  }
+  .filter {
+    width: 30%;
+  }
+  .search-box:hover > .search-txt {
+    width: 240px;
+    padding: 0 6px;
+  }
+  .search-box:hover > .search-btn {
+    background-color: #033723a3;
+  }
+}
+
+@media all and (max-width: 690px) {
+  .card {
+    width: 400px;
+    height: auto;
+    min-height: 300px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f9fcfa;
+    margin-top: 15px;
+  }
+  #profile_pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .update-delete {
+    width: 100px;
+  }
+  .update-delete button {
+    width: 50px;
+  }
+  #main__pic {
+    width: 85%;
+    height: 60%;
+    border-radius: 8px;
+    -webkit-box-shadow: -1px 1px 15px 4px rgba(34, 60, 80, 0.4);
+    -moz-box-shadow: -1px 1px 15px 4px rgba(34, 60, 80, 0.4);
+    box-shadow: -1px 1px 15px 4px rgba(34, 60, 80, 0.681);
+    margin-top: 20px;
+  }
+}
+@media all and (max-width: 500px) {
+  .card {
+    width: 300px;
+    height: auto;
+    min-height: 200px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f9fcfa;
+    margin-top: 15px;
+  }
+  #profile_pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  .update-delete {
+    width: 100px;
+  }
+  .update-delete button {
+    width: 40%;
+  }
+  #main__pic {
+    width: 75%;
+    height: 55%;
+    border-radius: 8px;
+    -webkit-box-shadow: -1px 1px 15px 4px rgba(34, 60, 80, 0.4);
+    -moz-box-shadow: -1px 1px 15px 4px rgba(34, 60, 80, 0.4);
+    box-shadow: -1px 1px 15px 4px rgba(34, 60, 80, 0.681);
+    margin-top: 20px;
+  }
+  .img-post {
+    height: 390px;
+  }
+}
